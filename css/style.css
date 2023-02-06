@@ -5,10 +5,79 @@
     margin: 0;
     box-sizing: border-box;
 }
+a {
+    color: inherit;
+}
+/* UTILITY */
+
+.flex {
+    display: flex;
+}
 
 /* HEADER */
 
 header {
-    height: 80px;
+    /* debug */
     background-color: orange;
+    height: 80px;
+}
+
+/* MAIN */
+
+main.flex {
+    gap: 10px;
+}
+
+nav.menu {
+    min-height: 300px;
+    padding: 10px;
+    width: 25%;
+    /* debug */
+    background-color: aqua;
+}
+
+.main-section {
+    padding: 10px;
+    width: 50%;
+    /* debug */
+    background-color: lightgreen;
+}
+
+aside {
+    min-height: 300px;
+    text-align: center;
+    padding: 10px;
+    width: 25%;
+    /* debug */
+    background-color: lightcoral;
+}
+
+/* Main section */
+.wrapper {
+    padding: 10px;
+    border: 1px white dashed;
+}
+
+.wrapper article {
+    padding: 10px;
+    background-color: lightgrey;
+    margin-top: 10px;
+
+}
+
+/* Navigation bar */
+nav.menu li {
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+
+    /* debug */
+    background-color: lightblue;
+}
+
+/* FOOTER */
+footer {
+    /* debug */
+    height: 80px;
+    background-color: lightslategray;
 }
